@@ -13,7 +13,7 @@ export default function displayForecast(response) {
     forecastElement.innerHTML += `
 
   <li
-          class="col-span-1 flex flex-col text-center items-center justify-between bg-white rounded-lg shadow m-2 w-full"
+          class="col-span-1 flex flex-col text-center items-center justify-between bg-white rounded-lg shadow mx-4 my-1 w-full"
         >
           <div class="flex-1 flex flex-col p-8">
            

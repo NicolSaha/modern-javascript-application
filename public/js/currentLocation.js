@@ -1,5 +1,5 @@
-import displayWeather from "./displayWeather.js";
-import displayForecast from "./displayForecast.js";
+import displayWeather from './displayWeather.js';
+import displayForecast from './displayForecast.js';
 
 // GET CURRENT LOCATION
 export function getCurrentLocation(event) {
@@ -9,8 +9,8 @@ export function getCurrentLocation(event) {
 
 // HANDLE CURRENT LOCATION
 export function handleLocation(location) {
-  let units = "metric";
-  let apiKey = "0546a51e6ee07afd4031494f64e6a747";
+  let units = 'metric';
+  let apiKey = '0546a51e6ee07afd4031494f64e6a747';
   let latitude = location.coords.latitude;
   let longitude = location.coords.longitude;
 

@@ -2,18 +2,10 @@ import getNameOfDayByNumber from "./daysOfWeek.js";
 import handleSubmit from "./handleSubmit.js";
 import searchCity from "./searchCityEngine.js";
 import formatHours from "./formatHours.js";
-import handleSubmitAddedCityOne, {
-  hideText,
-  searchCityAdded,
-  displayAddedCityOne,
-} from "./addedCityOne.js";
+import handleSubmitAddedCityOne from "./addedCityOne.js";
 
-import handleSubmitAddedCityTwo, {
-  hideTextTwo,
-  searchCityAddedTwo,
-  displayAddedCityTwo,
-} from "./addedCityTwo.js";
-import { getCurrentLocation, handleLocation } from "./currentLocation.js";
+import handleSubmitAddedCityTwo from "./addedCityTwo.js";
+import { getCurrentLocation } from "./currentLocation.js";
 import userPushEnterMain, {
   userPushEnterOne,
   userPushEnterTwo,

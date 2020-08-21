@@ -1,5 +1,5 @@
 // FORMAT FORCAST TIME
-export default function formatHours(timestamp) {
+export default function formatHours() {
   let date = new Date();
   let hours = date.getHours();
   if (hours < 10) {

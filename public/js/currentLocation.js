@@ -25,7 +25,7 @@ export function handleLocation(location) {
     .then(displayWeather)
     .catch((error) => console.error(error));
 
-  apiUrl = `api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=${units}`;
+  apiUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=${units}`;
   fetch(apiUrl)
     .then((response) => {
       return response.json();
@@ -33,7 +33,6 @@ export function handleLocation(location) {
     .then((response) => {
       return response;
     })
-    .then(displayWeather)
     .then(displayForecast)
     .catch((error) => console.error(error));
 }
